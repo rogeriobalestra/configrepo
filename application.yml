@@ -11,10 +11,10 @@ ROLES:
   topaz:
     url: /topaz/conta-corrente/debito
       roles_topaz:  
-      - role: ROLE_TOPAS_DEBITO_CONTA
-      - role: ROLE_TOPAS_INSERT
-      - role: ROLE_TOPAS_DELETE
-      - role: ROLE_TOPAS_UPDATE
+        - role: ROLE_TOPAS_DEBITO_CONTA
+        - role: ROLE_TOPAS_INSERT
+        - role: ROLE_TOPAS_DELETE
+        - role: ROLE_TOPAS_UPDATE
   
   matera:
     url: /topaz/conta-corrente/credito
