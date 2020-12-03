@@ -9,7 +9,7 @@ db:	db:
 
 
 ROLES:	ROLES:
-  topaz:	  - url: /topaz/conta-corrente/debito
+  topaz:	
     - url: /topaz/conta-corrente/debito	  - role1: ROLE_TOPAS_DEBITO_CONTA
     - role: ROLE_TOPAS_DEBITO_CONTA	  - role2: ROLE_TOPAS_INSERT
     - role: ROLE_TOPAS_INSERT	  - role3: ROLE_TOPAS_DELETE
@@ -18,6 +18,6 @@ ROLES:	ROLES:
 
 
 ROLES_URLS:	ROLES_URLS:
-  topaz:	  topaz:
+  topaz:
    - url: /topaz/conta-corrente/debito	   - url: /topaz/conta-corrente/debito
    - url: /topaz/conta-corrente/credito
