@@ -8,12 +8,11 @@ db:
   port: 1200
   
 ROLES:
-  topaz:
-    - url: /topaz/conta-corrente/debito
-    - role: ROLE_TOPAS_DEBITO_CONTA
-    - role: ROLE_TOPAS_INSERT
-    - role: ROLE_TOPAS_DELETE
-    - role: ROLE_TOPAS_UPDATE
+  - url: /topaz/conta-corrente/debito
+  - role1: ROLE_TOPAS_DEBITO_CONTA
+  - role2: ROLE_TOPAS_INSERT
+  - role3: ROLE_TOPAS_DELETE
+  - role4: ROLE_TOPAS_UPDATE
   
 ROLES_URLS:
   topaz:
