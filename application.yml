@@ -7,10 +7,12 @@ db:
   host: 127.0.0.1
   port: 1200
   
-ROUTERS:
+ROLES:
+  topaz:
   - url: /topaz/conta-corrente/debito
     role: ROLE_TOPAS_DEBITO_CONTA
   
+  matera:
   - url: /topaz/conta-corrente/credito
     role: ROLE_TOPAS_CREDITO_CONTA
 
