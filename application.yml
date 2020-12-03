@@ -1,7 +1,7 @@
 my:
   greeting: Hello Midway
   list:
-    values: One, Two, Three, Four
+          values: One, Two, Three, Four, Five
 
 db:
   connection: connection-string-here
