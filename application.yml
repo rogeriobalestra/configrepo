@@ -1,11 +1,11 @@
-my:	my:
-  greeting: Hello Midway	  greeting: Hello Midway
+my:
+  greeting: Hello Midway	
   list:	  list:
-          values: One, Two, Three, Four, Five, Six, Seven	          values: One, Two, Three, Four, Five, Six, Seven
-db:	db:
-  connection: connection-string-here	  connection: connection-string-here
-  host: 127.0.0.1	  host: 127.0.0.1
-  port: 1200	  port: 1200
+          values: One, Two, Three, Four, Five, Six, Seven
+db:
+  connection: connection-string-here
+  host: 127.0.0.1
+  port: 1200
 
 
 ROLES:
