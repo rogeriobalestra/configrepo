@@ -1,22 +1,27 @@
 my:
-  greeting: Hello Midway	
-  list:	  list:
+  greeting: Hello Midway
+  list:
           values: One, Two, Three, Four, Five, Six, Seven
 db:
   connection: connection-string-here
   host: 127.0.0.1
   port: 1200
-
-
+  
 ROLES:
-  topaz:	
-    - role: ROLE_TOPAS_DEBITO_CONTA
-    - role: ROLE_TOPAS_INSERT
-    - role: ROLE_TOPAS_DELETE
-    - role: ROLE_TOPAS_UPDATE	
-
-
+  - url: /topaz/conta-corrente/debito
+  - role1: ROLE_TOPAS_DEBITO_CONTA
+  - role2: ROLE_TOPAS_INSERT
+  - role3: ROLE_TOPAS_DELETE
+  - role4: ROLE_TOPAS_UPDATE
+  
 ROLES_URLS:
   topaz:
    - url: /topaz/conta-corrente/debito
    - url: /topaz/conta-corrente/credito
+
+
+AAPL:
+  - shares: -75.088
+    date: 11/27/2015
+  - shares: 75.088
+    date: 11/26/2015
