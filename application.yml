@@ -20,5 +20,9 @@ ROLES_URLS:
    - url: /topaz/conta-corrente/credito
 
 
-
+AAPL:
+  - shares: -75.088
+    date: 11/27/2015
+  - shares: 75.088
+    date: 11/26/2015
   
